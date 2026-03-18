@@ -1,0 +1,432 @@
+.wpcargo-dashboard .wpcargo-container {
+    min-width: 100%;
+}
+.wpcargo-btn {
+    word-break: initial;
+    text-decoration: none !important;
+}
+#wpcshcon-dashboard-wrapper {
+    display: block;
+    overflow: hidden;
+}
+#wpcshcon-dashboard-wrapper .wpcshcon-section {
+    float: left;
+    padding: 0 18px 18px;
+}
+#wpshcon-dashboard-content {
+    display: block;
+    overflow: hidden;
+    margin-bottom: 60px;
+}
+#wpcshcon-user-shipments .consolidated-shipments {
+    float: right;
+}
+#consolidation_info h5 {
+    margin: 10px 0;
+    border-bottom: 1px solid #cecece;
+    padding-bottom: 8px;
+}
+#shipment-details-section,
+#wpcshcon-dashboard-footer {
+    display: block;
+    width: 100%;
+    clear: both;
+    overflow: hidden;
+    margin-top: 36px;
+}
+#consolidate-shipment-wrapper #details-section,
+#consolidate-shipment-wrapper #addons-fees-section,
+#confirm_new_order #details-section,
+#confirm_new_order #addons-fees-section,
+#wpcshcon-dashboard-footer #orders,
+#wpcshcon-dashboard-footer #payments {
+    width: 49%;
+    float: left;
+}
+#consolidate-shipment-wrapper #details-section,
+#confirm_new_order #details-section,
+#wpcshcon-dashboard-footer #orders{
+    margin-right: 2%;
+}
+/* tables */
+#wpcshcon-dashboard-wrapper table ul li {
+    list-style: none;
+}
+#consoldation-menu, #confirm_new_order ul#header-list,
+#wpcshcon-vieworder-wrapper #header-list li p,
+#wpcshcon-vieworder-wrapper #details-section p,
+#confirm_new_order ul#header-list li p,
+#wpc-shcon-wrapper #ship-to-section p,
+#confirm_new_order #details-section p,
+#wpcshcon-dashboard-wrapper table ul,
+#wpcshcon-dashboard-wrapper table ul li {
+    margin: 0;
+}
+/* navigation */
+#consoldation-menu {
+    padding: 0;
+    margin: 10px 0;
+}
+#consoldation-menu li {
+    display: inline-block;
+}
+/* Ship to styles */
+#ship-to-section #receiver-address.address-search,
+#ship-to-section .wpc-calculator-fields{
+    margin-bottom: 8px;
+}
+#ship-to-section label {
+    display: inline-block;
+    min-width: 160px;
+}
+#submit_new_order .order-section {
+    width: 32%;
+    float: left;
+    margin-right: 2%;
+}
+#submit_new_order #packaging-option {
+    margin-right: 0;
+}
+/* Confirm Order */
+.wpcscon-header-info {
+    background-color: var(--wpcargo);
+    color: #fff;
+}
+.wpcscon-header-info .wpcargo-row div {
+    border-right: 1px solid #fff;
+}
+#wpcshcon-vieworder-wrapper #header-list,
+#confirm_new_order ul#header-list {
+    background-color: #000;
+    padding: 12px;
+    margin-bottom: 18px;
+}
+#wpcshcon-vieworder-wrapper #header-list li,
+#confirm_new_order ul#header-list li {
+    display: inline-block;
+    width: 24%;
+    color: #fff;
+}
+.shipping-section {
+    background-color: #eee;
+    padding: 12px 0 0 0;
+}
+.shipping-section p {
+    font-size: 46px;
+    margin: 0;
+}
+#addons-fees-section #addons-fees {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 24px;
+}
+#shipment-details-section,
+#addons-fees-section .af-section {
+    margin-bottom: 24px;
+}
+#addons-fees-section .af-section ul {
+    margin-bottom: 0;
+}
+#wpcshcon-vieworder-wrapper #details-section .order-section,
+#confirm_new_order #details-section .order-section{
+    margin-bottom:36px;
+}
+#confirm_new_order #details-section .label, #confirm_new_order .af-section .addon-label,
+#wpcshcon-vieworder-wrapper #details-section .label, #wpcshcon-vieworder-wrapper .af-section .addon-label {
+    min-width: 118px;
+    display: inline-block;
+}
+.site-container {
+    background-color: #fcfcfc;
+}
+#consolidate-shipment-wrapper #wpcshcon-dashboard-footer {
+    overflow: visible;
+}
+#wpc-shcon-wrapper .wpcargo-table th {   
+    padding: 20px 10px 18px;
+    line-height: 1;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 11px;
+    border-top: 1px solid var(--wpcargo);
+}
+#wpc-shcon-wrapper .wpcargo-table {
+    font-size: 12px;
+}
+#wpc-shcon-wrapper .wpcargo-table td{
+    border-top: 1px solid #dee2e6;
+}
+#wpc-shcon-wrapper .wpcargo-table ul {
+    padding: 0;
+}
+#wpc-shcon-wrapper .wpcargo-table th,
+.no-space{
+    white-space: nowrap;
+}
+#consolidate-shipment-wrapper #wpshcon-dashboard-content {
+    overflow: visible;
+    width: 100%;
+}
+#consolidate-shipment-wrapper #wpcshcon-view-all {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+}
+#receiver-address .select2-container{
+    width: 390px !important;
+}
+/* Upload Avater Croppie */
+#upload-avatar-wrapper,
+#croppie-actions a.actionUpload,
+#wpcshcon-avatar #user-avatar {
+    position: relative;
+}
+#wpcshcon-avatar #user-avatar #change-avatar-icon {
+    position: absolute;
+    top: 30%;
+    left: 44%;
+    color: #eee;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    width:36px;
+    height:36px;
+}
+#upload-avatar-wrapper a#close-upload-avatar {
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    color: #900;
+}
+#wpcshcon-avatar #user-avatar:hover #change-avatar-icon {
+    opacity: 1;
+    visibility: visible;
+}
+#wpcshcon-avatar #user-avatar #change-avatar-icon .dashicons{
+    font-size: 30px;
+}
+#wpcshcon-avatar {
+    margin-bottom: 18px;
+}
+#croppie-actions a.actionUpload:hover {
+    cursor: pointer;
+}
+#croppie-actions a.actionUpload #upload {
+    width: initial;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+/* Modal Styles */
+#address-menu {
+    padding: 0;
+    margin-bottom: 24px;
+}
+#address-menu li {
+    list-style: none;
+    display: inline;
+}
+.wpcshcon-dialog {
+    z-index: 3;
+    display: none;
+    padding-top: 100px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+.wpcshcon-dialog .dialog-box {
+    margin: auto;
+    background-color: #fff;
+    position: relative;
+    padding: 24px;
+    outline: 0;
+    width: 80%;
+    height: initial !important;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+    animation: animatetop 0.4s;
+}
+.wpcshcon-dialog label {
+    min-width: 180px;
+    display: inline-block;
+}
+.wpcshcon-dialog .wpc-calculator-fields{
+    margin: 12px;
+}
+.wpcshcon-dialog .close-wpcshcon-dialog {
+    position: absolute;
+    font-size: 24px;
+    font-weight: bold;
+    color: #900;
+    right: 12px;
+    top: 0;
+    cursor: pointer;
+}
+/* Forms Fields*/
+.wpc-calculator-fields .form-control{
+    border: 1px solid #c1c1c1;
+}
+/* Spinner Styles */
+.wpc-loading {
+    position: fixed;
+    z-index: 999999;
+    height: 2em;
+    width: 2em;
+    overflow: show;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+  /* Transparent Overlay */
+  .wpc-loading:before {
+    content: '';
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.3);
+  }
+  /* :not(:required) hides these rules from IE9 and below */
+  .wpc-loading:not(:required) {
+    /* hide "loading..." text */
+    font: 0/0 a;
+    color: transparent;
+    text-shadow: none;
+    background-color: transparent;
+    border: 0;
+  }
+  .wpc-loading:not(:required):after {
+    content: '';
+    display: block;
+    font-size: 10px;
+    width: 1em;
+    height: 1em;
+    margin-top: -0.5em;
+    -webkit-animation: spinner 1500ms infinite linear;
+    -moz-animation: spinner 1500ms infinite linear;
+    -ms-animation: spinner 1500ms infinite linear;
+    -o-animation: spinner 1500ms infinite linear;
+    animation: spinner 1500ms infinite linear;
+    border-radius: 0.5em;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.75) 1.5em 0 0 0, rgba(0, 0, 0, 0.75) 1.1em 1.1em 0 0, rgba(0, 0, 0, 0.75) 0 1.5em 0 0, rgba(0, 0, 0, 0.75) -1.1em 1.1em 0 0, rgba(0, 0, 0, 0.5) -1.5em 0 0 0, rgba(0, 0, 0, 0.5) -1.1em -1.1em 0 0, rgba(0, 0, 0, 0.75) 0 -1.5em 0 0, rgba(0, 0, 0, 0.75) 1.1em -1.1em 0 0;
+    box-shadow: rgba(0, 0, 0, 0.75) 1.5em 0 0 0, rgba(0, 0, 0, 0.75) 1.1em 1.1em 0 0, rgba(0, 0, 0, 0.75) 0 1.5em 0 0, rgba(0, 0, 0, 0.75) -1.1em 1.1em 0 0, rgba(0, 0, 0, 0.75) -1.5em 0 0 0, rgba(0, 0, 0, 0.75) -1.1em -1.1em 0 0, rgba(0, 0, 0, 0.75) 0 -1.5em 0 0, rgba(0, 0, 0, 0.75) 1.1em -1.1em 0 0;
+  }
+/* WPCFE CSS */
+.item-email-notification #send-item-email-notification {
+    padding: 5px 0;
+}
+
+.after-shipments-info .item-email-notification {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #cecece;
+}
+
+.item-email-notes .item-notification-list {
+    list-style: none;
+    padding: 0;
+}
+
+.item-notification-list li:nth-child(odd) {
+    background-color: #eee;
+}
+
+.item-notification-list li:before {
+    content: "\f467";
+    font-family: dashicons;
+    margin-right: 6px;
+    color: #0073aa;
+}
+
+.item-notification-list li {
+    padding: 5px;
+}
+#addons-fees .totals-details {
+    margin: 10px 0;
+    border-top: 2px solid #cecece;
+    padding: 10px 0;
+}
+
+.totals-details td {
+    font-weight: 700;
+    font-size: 16px;
+}
+#packaging-option-wrapper input {
+    position: unset!important;
+}
+/* Animation */
+@-webkit-keyframes spinner {
+    0% {
+      -webkit-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -ms-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+      -moz-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+}
+@-moz-keyframes spinner {
+	0% {
+	  -webkit-transform: rotate(0deg);
+	  -moz-transform: rotate(0deg);
+	  -ms-transform: rotate(0deg);
+	  -o-transform: rotate(0deg);
+	  transform: rotate(0deg);
+	}
+	100% {
+	  -webkit-transform: rotate(360deg);
+	  -moz-transform: rotate(360deg);
+	  -ms-transform: rotate(360deg);
+	  -o-transform: rotate(360deg);
+	  transform: rotate(360deg);
+	}
+}
+@-o-keyframes spinner {
+	0% {
+	  -webkit-transform: rotate(0deg);
+	  -moz-transform: rotate(0deg);
+	  -ms-transform: rotate(0deg);
+	  -o-transform: rotate(0deg);
+	  transform: rotate(0deg);
+	}
+	100% {
+	  -webkit-transform: rotate(360deg);
+	  -moz-transform: rotate(360deg);
+	  -ms-transform: rotate(360deg);
+	  -o-transform: rotate(360deg);
+	  transform: rotate(360deg);
+	}
+}
+@keyframes spinner {
+	0% {
+	  -webkit-transform: rotate(0deg);
+	  -moz-transform: rotate(0deg);
+	  -ms-transform: rotate(0deg);
+	  -o-transform: rotate(0deg);
+	  transform: rotate(0deg);
+	}
+	100% {
+	  -webkit-transform: rotate(360deg);
+	  -moz-transform: rotate(360deg);
+	  -ms-transform: rotate(360deg);
+	  -o-transform: rotate(360deg);
+	  transform: rotate(360deg);
+	}
+}

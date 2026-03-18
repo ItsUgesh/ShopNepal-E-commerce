@@ -1,0 +1,1056 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WPCargo Shipment Consolidation Add on\n"
+"POT-Creation-Date: 2020-07-07 11:34+0800\n"
+"PO-Revision-Date: 2020-07-07 11:34+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: wpcargo-shipment-consolidation-addon.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: admin/classes/core.php:468
+msgid "consolidationID"
+msgstr "合并 ID"
+
+#: admin/classes/core.php:469
+msgid "consolidationNo"
+msgstr "合并否"
+
+#: admin/classes/core.php:470
+msgid "Total"
+msgstr "总计"
+
+#: admin/classes/scripts.php:21 admin/classes/scripts.php:63
+#: admin/classes/scripts.php:75
+msgid ""
+"No item(s) found in the this shipment, Please check and click publish to "
+"save the Item(s)."
+msgstr "此货件中找不到任何项目，请检查并单击\"发布\"以保存物料。"
+
+#: admin/classes/scripts.php:22 admin/classes/scripts.php:64
+#: admin/classes/scripts.php:76
+msgid ""
+"No cost is set for this shipment, Please check and click publish to save the "
+"cost."
+msgstr "此货件未设置任何成本，请检查并单击发布以节省成本。"
+
+#: admin/classes/scripts.php:23 admin/classes/scripts.php:65
+#: admin/classes/scripts.php:77
+msgid "Message sent!"
+msgstr "信息已发送！"
+
+#: admin/classes/scripts.php:24 admin/classes/scripts.php:66
+#: admin/classes/scripts.php:78
+msgid "Message Failed! Reload and try again."
+msgstr "消息失败！重新加载，然后重试。"
+
+#: admin/classes/scripts.php:57
+msgid "Something went wrong during process, Please try agian later."
+msgstr "在此过程中出现问题，请稍后再试。"
+
+#: admin/classes/scripts.php:58
+msgid "Are you sure you want to Delete Address?"
+msgstr "是否确实要删除地址？"
+
+#: admin/classes/settings.php:18 admin/classes/settings.php:19
+#: admin/classes/settings.php:25 admin/classes/settings.php:26
+#: admin/classes/settings.php:56 admin/classes/settings.php:84
+msgid "Consolidation Settings"
+msgstr "合并设置"
+
+#: admin/classes/settings.php:61 admin/includes/functions.php:93
+#: admin/includes/functions.php:718
+msgid "Processing"
+msgstr "处理中"
+
+#: admin/classes/settings.php:62 admin/includes/functions.php:721
+msgid "On Hold"
+msgstr "搁置"
+
+#: admin/classes/shipment-consolidate.php:19 admin/includes/functions.php:388
+#: admin/includes/hooks.php:97 admin/includes/hooks.php:143
+#: templates/consolidated-shipments.tpl.php:2
+msgid "Consolidated Shipments"
+msgstr "合并发货"
+
+#: admin/classes/shipment-consolidate.php:25
+#: admin/classes/shipment-consolidate.php:60
+#: admin/classes/shipment-consolidate.php:75
+msgid "Shipment Type"
+msgstr "装运类型"
+
+#: admin/classes/shipment-consolidate.php:33
+msgid "Email Notification"
+msgstr "电子邮件通知"
+
+#: admin/classes/shipment-consolidate.php:41
+msgid "Woo Order"
+msgstr "伍订单"
+
+#: admin/classes/shipment-consolidate.php:49 admin/includes/hooks.php:210
+#: admin/includes/hooks.php:347
+msgid "Consolidation Information"
+msgstr "合并信息"
+
+#: admin/classes/shipment-consolidate.php:77
+msgid "Standard"
+msgstr "标准"
+
+#: admin/classes/shipment-consolidate.php:78
+msgid "Consolidation"
+msgstr "整合"
+
+#: admin/classes/shipment-consolidate.php:135 admin/includes/hooks.php:183
+msgid "Send Notification"
+msgstr "发送通知"
+
+#: admin/classes/shipment-consolidate.php:151 admin/includes/hooks.php:200
+msgid "No sent email records found!"
+msgstr "未找到已发送的电子邮件记录！"
+
+#: admin/classes/shipment-consolidate.php:173
+msgid "Order"
+msgstr "订单"
+
+#: admin/classes/shipment-consolidate.php:173
+msgid "details"
+msgstr "详情"
+
+#: admin/classes/shipment-consolidate.php:174
+msgid "Order Status"
+msgstr "订单状态"
+
+#: admin/classes/shipment-consolidate.php:175
+msgid "Payment via"
+msgstr "通过PAYPAL付款"
+
+#: admin/classes/shipment-consolidate.php:178
+msgid "No Order for this Consolidation."
+msgstr "此合并没有订单。"
+
+#: admin/classes/shipment-consolidate.php:194
+msgid "Shipment List"
+msgstr "装运列表"
+
+#: admin/classes/shipment-consolidate.php:194
+msgid "Add Shipment"
+msgstr "添加货件"
+
+#: admin/includes/functions.php:89
+msgid "Pending Quotation"
+msgstr "待定报价"
+
+#: admin/includes/functions.php:90
+msgid "Pending Confirmation"
+msgstr "待确认"
+
+#: admin/includes/functions.php:91
+msgid "In Queue"
+msgstr "排队中"
+
+#: admin/includes/functions.php:92 admin/includes/functions.php:715
+msgid "Ready"
+msgstr "准备好了"
+
+#: admin/includes/functions.php:94
+msgid "Not Allowed"
+msgstr "不允许"
+
+#: admin/includes/functions.php:95
+msgid "On-Hold"
+msgstr "保持"
+
+#: admin/includes/functions.php:96
+msgid "Custom Declaration"
+msgstr "自定义声明"
+
+#: admin/includes/functions.php:97
+msgid "Shipped"
+msgstr "已发货"
+
+#: admin/includes/functions.php:98
+msgid "Delivered"
+msgstr "已发货"
+
+#: admin/includes/functions.php:99
+msgid "Approved"
+msgstr "批准"
+
+#: admin/includes/functions.php:113
+msgid "Insurance"
+msgstr "保险"
+
+#: admin/includes/functions.php:114
+msgid "Extra Packaging"
+msgstr "额外包装"
+
+#: admin/includes/functions.php:115
+msgid "Fragile Sticker"
+msgstr "易碎贴纸"
+
+#: admin/includes/functions.php:116
+msgid "Storage"
+msgstr "存储"
+
+#: admin/includes/functions.php:117
+msgid "Ship to Address"
+msgstr "发货到地址"
+
+#: admin/includes/functions.php:118
+msgid "Urgent Fees"
+msgstr "紧急费用"
+
+#: admin/includes/functions.php:119
+msgid "Smart Pack"
+msgstr "智能包装"
+
+#: admin/includes/functions.php:120
+msgid "Dangerous Item"
+msgstr "危险物品"
+
+#: admin/includes/functions.php:121
+msgid "Picture"
+msgstr "图片"
+
+#: admin/includes/functions.php:169 admin/includes/functions.php:178
+#: admin/includes/functions.php:730
+msgid "ID."
+msgstr "身份证件。"
+
+#: admin/includes/functions.php:339
+msgid "Page"
+msgstr "页面"
+
+#: admin/includes/functions.php:339
+msgid "of"
+msgstr "的"
+
+#: admin/includes/functions.php:345
+msgid "Awaiting Payments"
+msgstr "等待付款"
+
+#: admin/includes/functions.php:358
+msgid "DHL Express"
+msgstr "敦豪快递"
+
+#: admin/includes/functions.php:359
+msgid "Aramex Economy"
+msgstr "阿拉米克斯经济"
+
+#: admin/includes/functions.php:360
+msgid "UPS Express"
+msgstr "UPS 快递"
+
+#: admin/includes/functions.php:361
+msgid "UPS Economy"
+msgstr "UPS 经济"
+
+#: admin/includes/functions.php:362
+msgid "Less Expensive Method"
+msgstr "成本较低的方法"
+
+#: admin/includes/functions.php:408 templates/steps1-order.php:43
+msgid "Consolidate"
+msgstr "合并"
+
+#: admin/includes/functions.php:438
+msgid ""
+"Please Setup Shipment Consolidation Settings for Select Product for Shipment "
+"Consolidation Payment"
+msgstr "请为货件合并付款选择产品设置装运合并设置"
+
+#: admin/includes/functions.php:438
+msgid "Here"
+msgstr "这里"
+
+#: admin/includes/functions.php:450 admin/includes/functions.php:559
+#: admin/includes/functions.php:591 admin/includes/hooks.php:45
+msgid "Storage Code"
+msgstr "存储代码"
+
+#: admin/includes/functions.php:453
+msgid "Code"
+msgstr "代码"
+
+#: admin/includes/functions.php:578
+#: admin/templates/settings-warehouse.tpl.php:1
+#: admin/templates/settings.tpl.php:427 templates/warehouse-address.tpl.php:6
+msgid "Warehouse Address"
+msgstr "仓库地址"
+
+#: admin/includes/functions.php:584
+msgid ""
+"You don't have Storage Code for your warehouse, Please contact our support."
+msgstr "您没有仓库的存储代码，请联系我们的支持。"
+
+#: admin/includes/functions.php:589 admin/includes/hooks.php:43
+#: admin/templates/settings-warehouse.tpl.php:13
+#: admin/templates/settings.tpl.php:432
+msgid "Warehouse Name"
+msgstr "接收器名称："
+
+#: admin/includes/functions.php:594 admin/includes/hooks.php:48
+msgid "Address 2"
+msgstr "地址2"
+
+#: admin/includes/functions.php:678
+msgid "Item Notification"
+msgstr "项目通知"
+
+#: admin/includes/functions.php:681
+msgid "Consolidate Notification"
+msgstr "合并通知"
+
+#: admin/includes/functions.php:697
+msgid "send email notification "
+msgstr "发送电子邮件通知"
+
+#: admin/includes/functions.php:709
+msgid ""
+"WPCargo Shipment Consolidation Add on plugin need License, Please activate "
+"your license key"
+msgstr "WPCargo 货件整合 添加插件需要许可证，请激活您的许可证密钥"
+
+#: admin/includes/functions.php:709
+msgid "here"
+msgstr "这里"
+
+#: admin/includes/functions.php:712
+msgid "Sorry you are not allowed to access this Consolidation"
+msgstr "很抱歉，您无法访问此合并"
+
+#: admin/includes/functions.php:724
+msgid "Consolidation Numbers:"
+msgstr "合并编号："
+
+#: admin/includes/functions.php:727
+msgid "Consolidate No."
+msgstr "合并号"
+
+#: admin/includes/functions.php:733 admin/includes/functions.php:736
+#: admin/includes/functions.php:739 admin/includes/functions.php:742
+#: admin/includes/functions.php:745
+msgid "This plugin requires"
+msgstr "此插件需要"
+
+#: admin/includes/functions.php:733 admin/includes/functions.php:736
+#: admin/includes/functions.php:739 admin/includes/functions.php:742
+#: admin/includes/functions.php:745
+msgid "plugin to be active!"
+msgstr "插件是活跃的！"
+
+#: admin/includes/functions.php:748
+msgid "Cheating, uh?"
+msgstr "作弊，嗯？"
+
+#: admin/includes/hooks.php:39
+msgid "This will be your warehouse address."
+msgstr "这将是您的仓库地址。"
+
+#: admin/includes/hooks.php:178
+msgid "Notification"
+msgstr "通知"
+
+#: admin/includes/hooks.php:352 templates/view.tpl.php:21
+msgid "Consolidation Details:"
+msgstr "合并详细信息："
+
+#: admin/includes/hooks.php:355 templates/view.tpl.php:24
+msgid "Ordered On:"
+msgstr "订购时："
+
+#: admin/includes/hooks.php:359 templates/view.tpl.php:28
+msgid "Consolidate No.:"
+msgstr "合并号："
+
+#: admin/includes/hooks.php:363
+#: admin/templates/consolidated-shipment-meta.tpl.php:50
+#: templates/view.tpl.php:32
+msgid "Shipping Method:"
+msgstr "运输方法："
+
+#: admin/includes/hooks.php:367 templates/view.tpl.php:36
+msgid "Status:"
+msgstr "状态："
+
+#: admin/includes/hooks.php:371 templates/view.tpl.php:40
+msgid "Total Shipment"
+msgstr "总装运量"
+
+#: admin/includes/hooks.php:377
+#: admin/templates/consolidated-shipment-meta.tpl.php:102
+#: templates/view.tpl.php:48
+msgid "Addons & Fees:"
+msgstr "附加组件和费用："
+
+#: admin/includes/hooks.php:391 templates/view.tpl.php:62
+msgid "Shipping Cost:"
+msgstr "配送成本"
+
+#: admin/includes/hooks.php:395 templates/view.tpl.php:66
+msgid "Tax:"
+msgstr "税："
+
+#: admin/includes/hooks.php:399 templates/view.tpl.php:70
+msgid "Total Cost:"
+msgstr "总成本："
+
+#: admin/includes/hooks.php:408 templates/view.tpl.php:83
+msgid "Shipment Details:"
+msgstr "装运详情："
+
+#: admin/includes/hooks.php:412
+#: admin/templates/consolidated-shipment-meta.tpl.php:14
+#: templates/consolidated-shipments.tpl.php:6 templates/payments.tpl.php:7
+#: templates/steps1-order.php:9 templates/view.tpl.php:87
+#: templates/wpcshcon-template.tpl.php:7
+msgid "Date"
+msgstr "日期"
+
+#: admin/includes/hooks.php:413
+#: admin/templates/consolidated-shipment-meta.tpl.php:15
+#: templates/view.tpl.php:88
+msgid "Tracking Number"
+msgstr "快递单号"
+
+#: admin/includes/hooks.php:414
+#: admin/templates/consolidated-shipment-meta.tpl.php:16
+#: templates/steps1-order.php:29 templates/view.tpl.php:89
+msgid "Sender"
+msgstr "发件人"
+
+#: admin/includes/hooks.php:415
+#: admin/templates/consolidated-shipment-meta.tpl.php:17
+#: admin/templates/mail-item-package.tpl.php:7 templates/view.tpl.php:90
+msgid "Weight"
+msgstr "重量"
+
+#: admin/includes/hooks.php:416
+#: admin/templates/consolidated-shipment-meta.tpl.php:18
+#: templates/consolidated-shipments.tpl.php:11 templates/steps1-order.php:12
+#: templates/view.tpl.php:91
+msgid "Status"
+msgstr "状态"
+
+#: admin/includes/hooks.php:417
+#: admin/templates/consolidated-shipment-meta.tpl.php:19
+#: templates/steps1-order.php:13 templates/view.tpl.php:92
+msgid "Free Storage Left"
+msgstr "左侧免费存储"
+
+#: admin/includes/hooks.php:418
+#: admin/templates/consolidated-shipment-meta.tpl.php:20
+#: templates/view.tpl.php:93
+msgid "Cost"
+msgstr "费用"
+
+#: admin/includes/hooks.php:433
+#: admin/templates/consolidated-shipment-meta.tpl.php:35
+#: admin/templates/shipment-meta.tpl.php:12 templates/steps1-order.php:34
+#: templates/view.tpl.php:108
+msgid "Day(s)"
+msgstr "天"
+
+#: admin/includes/hooks.php:439
+#: admin/templates/consolidated-shipment-meta.tpl.php:41
+#: templates/view.tpl.php:114
+msgid "No Consolidated Shipment Found"
+msgstr "未找到合并货件"
+
+#: admin/templates/consolidated-shipment-meta.tpl.php:80
+#: templates/steps2-order.php:48
+msgid "Packaging Options"
+msgstr "包装选项"
+
+#: admin/templates/consolidated-shipment-meta.tpl.php:120
+msgid "SUBTOTAL"
+msgstr "小计"
+
+#: admin/templates/consolidated-shipment-meta.tpl.php:124
+msgid "TAX:"
+msgstr "税："
+
+#: admin/templates/consolidated-shipment-meta.tpl.php:128
+msgid "TOTAL"
+msgstr "总"
+
+#: admin/templates/mail-item-package.tpl.php:1
+msgid "Items:"
+msgstr "项目："
+
+#: admin/templates/mail-item-package.tpl.php:4
+msgid "Qty"
+msgstr "数量"
+
+#: admin/templates/mail-item-package.tpl.php:5
+msgid "Description"
+msgstr "描述"
+
+#: admin/templates/mail-item-package.tpl.php:6
+msgid "Dimension"
+msgstr "尺寸"
+
+#: admin/templates/mail-item-package.tpl.php:18
+msgid "No items in your package."
+msgstr "您的包裹中没有项目。"
+
+#: admin/templates/mail-message-consolidated.tpl.php:1
+#: admin/templates/mail-message.tpl.php:1
+msgid "Hello"
+msgstr "你好"
+
+#: admin/templates/mail-message-consolidated.tpl.php:2
+msgid "We are happy to let you know that we finished processing your order"
+msgstr "我们很高兴地让您知道，我们完成了您的订单处理"
+
+#: admin/templates/mail-message-consolidated.tpl.php:3
+msgid "The new consolidated weight is"
+msgstr "新的合并权重是"
+
+#: admin/templates/mail-message-consolidated.tpl.php:3
+msgid "and the total shipment cost is"
+msgstr "总装运成本为"
+
+#: admin/templates/mail-message-consolidated.tpl.php:4
+msgid "Please login to your"
+msgstr "请登录您的"
+
+#: admin/templates/mail-message-consolidated.tpl.php:4
+msgid "account"
+msgstr "帐户"
+
+#: admin/templates/mail-message-consolidated.tpl.php:4
+msgid "and pay the invoice within 7 days to avoid any storage charges."
+msgstr "并在 7 天内支付发票，以避免任何存储费用。"
+
+#: admin/templates/mail-message-consolidated.tpl.php:6
+msgid "Notes:"
+msgstr "备注："
+
+#: admin/templates/mail-message-consolidated.tpl.php:7
+msgid ""
+"After 10 days where no payment is received, your order will be considered as "
+"abandoned and will be disposed."
+msgstr "在未收到付款的 10 天后，您的订单将被视为已放弃并予以处置。"
+
+#: admin/templates/mail-message-consolidated.tpl.php:9
+msgid "Thank you for using"
+msgstr "感谢您使用"
+
+#: admin/templates/mail-message.tpl.php:2
+msgid "We have received a shipment fo you from"
+msgstr "我们收到了一批货物，你来自"
+
+#: admin/templates/mail-message.tpl.php:3
+msgid "Here are the details:"
+msgstr "详情如下："
+
+#: admin/templates/mail-message.tpl.php:4
+msgid "Tracking Number:"
+msgstr "物流单号:"
+
+#: admin/templates/settings-warehouse-email.tpl.php:1
+#: admin/templates/settings.tpl.php:449
+msgid "Warehouse Email Subject"
+msgstr "仓库电子邮件主题"
+
+#: admin/templates/settings-warehouse-email.tpl.php:2
+#: admin/templates/settings.tpl.php:450
+msgid "Note: This will overwrite default warehouse email subject"
+msgstr "注意：这将覆盖默认仓库电子邮件主题"
+
+#: admin/templates/settings-warehouse-email.tpl.php:4
+#: admin/templates/settings.tpl.php:452
+msgid "Warehouse Email Body"
+msgstr "仓库电子邮件正文"
+
+#: admin/templates/settings-warehouse-email.tpl.php:5
+#: admin/templates/settings.tpl.php:453
+msgid ""
+"Note: This will display a message before the warehouse information email "
+"template after registration order payment is completed. You can use HTML "
+"tags to layout your message."
+msgstr ""
+"注意：在注册订单付款完成后，这将在仓库信息电子邮件模板之前显示一条消息。您可"
+"以使用 HTML 标记来布局邮件。"
+
+#: admin/templates/settings-warehouse-email.tpl.php:7
+#: admin/templates/settings.tpl.php:455
+msgid "Warehouse Email Footer"
+msgstr "仓库电子邮件页脚"
+
+#: admin/templates/settings-warehouse-email.tpl.php:8
+#: admin/templates/settings.tpl.php:456
+msgid ""
+"Note: This will override the default wpcargo email footer message. You can "
+"use HTML tags to layout your message."
+msgstr ""
+"注意：这将覆盖默认的 wpcargo 电子邮件页脚消息。您可以使用 HTML 标记来布局邮"
+"件。"
+
+#: admin/templates/settings-warehouse.tpl.php:2
+#: admin/templates/settings.tpl.php:428
+msgid "Note: This will the shipment storage warehouse address."
+msgstr "注意：这将是装运存储仓库地址。"
+
+#: admin/templates/settings-warehouse.tpl.php:8
+msgid "Assign to Field"
+msgstr "分配给字段"
+
+#: admin/templates/settings-warehouse.tpl.php:17
+#: admin/templates/settings-warehouse.tpl.php:35
+#: admin/templates/settings-warehouse.tpl.php:49
+#: admin/templates/settings-warehouse.tpl.php:63
+#: admin/templates/settings-warehouse.tpl.php:77
+#: admin/templates/settings-warehouse.tpl.php:91
+#: admin/templates/settings-warehouse.tpl.php:105
+#: admin/templates/settings.tpl.php:133 admin/templates/settings.tpl.php:146
+#: admin/templates/settings.tpl.php:159 admin/templates/settings.tpl.php:172
+#: admin/templates/settings.tpl.php:185 admin/templates/settings.tpl.php:198
+#: admin/templates/settings.tpl.php:211 admin/templates/settings.tpl.php:224
+#: admin/templates/settings.tpl.php:237 admin/templates/settings.tpl.php:250
+#: admin/templates/settings.tpl.php:263 admin/templates/settings.tpl.php:284
+#: admin/templates/settings.tpl.php:297 admin/templates/settings.tpl.php:310
+#: admin/templates/settings.tpl.php:323 admin/templates/settings.tpl.php:336
+#: admin/templates/settings.tpl.php:349 admin/templates/settings.tpl.php:362
+#: admin/templates/settings.tpl.php:375 admin/templates/settings.tpl.php:388
+#: admin/templates/settings.tpl.php:401 admin/templates/settings.tpl.php:414
+msgid "--Select One--"
+msgstr "--选择一个"
+
+#: admin/templates/settings-warehouse.tpl.php:25
+msgid "User Address Prefix"
+msgstr "用户地址前缀"
+
+#: admin/templates/settings-warehouse.tpl.php:29
+#: admin/templates/settings.tpl.php:246 admin/templates/settings.tpl.php:397
+#: templates/warehouse-address.tpl.php:42
+msgid "Phone"
+msgstr "电话"
+
+#: admin/templates/settings-warehouse.tpl.php:43
+#: admin/templates/settings.tpl.php:168 admin/templates/settings.tpl.php:319
+#: templates/warehouse-address.tpl.php:12
+msgid "Address line 1"
+msgstr "地址行1"
+
+#: admin/templates/settings-warehouse.tpl.php:57
+#: admin/templates/settings.tpl.php:194 admin/templates/settings.tpl.php:345
+#: templates/warehouse-address.tpl.php:22
+msgid "City"
+msgstr "城市"
+
+#: admin/templates/settings-warehouse.tpl.php:71
+#: admin/templates/settings.tpl.php:207 admin/templates/settings.tpl.php:358
+#: templates/warehouse-address.tpl.php:27
+msgid "Postcode / ZIP"
+msgstr "邮编"
+
+#: admin/templates/settings-warehouse.tpl.php:85
+#: admin/templates/settings.tpl.php:233 admin/templates/settings.tpl.php:384
+#: templates/warehouse-address.tpl.php:37
+msgid "State / County"
+msgstr "州/县"
+
+#: admin/templates/settings-warehouse.tpl.php:99
+#: admin/templates/settings.tpl.php:220 admin/templates/settings.tpl.php:371
+#: templates/warehouse-address.tpl.php:32
+msgid "Country"
+msgstr "国家"
+
+#: admin/templates/settings.tpl.php:8
+msgid "Select Product for Shipment Consolidation Payment"
+msgstr "选择产品进行货件整合付款"
+
+#: admin/templates/settings.tpl.php:13
+msgid "Select Product"
+msgstr "选择产品"
+
+#: admin/templates/settings.tpl.php:19
+msgid "No Product found."
+msgstr "未找到产品。"
+
+#: admin/templates/settings.tpl.php:25
+msgid "Select Shipment Status to Ready for Consolidation"
+msgstr "选择装运状态以准备合并"
+
+#: admin/templates/settings.tpl.php:30 admin/templates/settings.tpl.php:50
+#: admin/templates/settings.tpl.php:70
+msgid "Select Status"
+msgstr "选择状态"
+
+#: admin/templates/settings.tpl.php:39 admin/templates/settings.tpl.php:59
+#: admin/templates/settings.tpl.php:79 admin/templates/settings.tpl.php:98
+msgid "No Shipment Status is set "
+msgstr "未设置装运状态"
+
+#: admin/templates/settings.tpl.php:45
+msgid "Select Shipment Status after Consolidation"
+msgstr "合并后选择装运状态"
+
+#: admin/templates/settings.tpl.php:65
+msgid "Select Shipment Status after Order Submit is Completed"
+msgstr "订单提交完成后选择装运状态"
+
+#: admin/templates/settings.tpl.php:85
+msgid "Select Shipment Status to display in dashboard"
+msgstr "选择要在仪表板中显示的装运状态"
+
+#: admin/templates/settings.tpl.php:104
+msgid "Packages / Shipping Methods"
+msgstr "包裹/运输方法"
+
+#: admin/templates/settings.tpl.php:107
+msgid "Add Package Options"
+msgstr "添加包选项"
+
+#: admin/templates/settings.tpl.php:110
+msgid "Each option must ne separated with comma (,). ex. option1,option2..."
+msgstr "每个选项必须用逗号 （，） 分隔。选项1，选项2..."
+
+#: admin/templates/settings.tpl.php:114
+msgid "Add Shipping Methods"
+msgstr "添加运输方法"
+
+#: admin/templates/settings.tpl.php:117
+msgid "Each option must ne separated with comma (,). ex. method1,method2..."
+msgstr "每个选项必须用逗号 （，） 分隔。方法1，方法2..."
+
+#: admin/templates/settings.tpl.php:124
+msgid "Map Default Receiver"
+msgstr "映射默认接收器"
+
+#: admin/templates/settings.tpl.php:125
+msgid ""
+"Note: This field mapping will auto populate on the Ship To section in Create "
+"Order as default field data."
+msgstr ""
+"注意：此字段映射将在\"创建订单\"中的\"发货到\"部分作为默认字段数据自动填充。"
+
+#: admin/templates/settings.tpl.php:129 admin/templates/settings.tpl.php:280
+msgid "First name"
+msgstr "名字"
+
+#: admin/templates/settings.tpl.php:142 admin/templates/settings.tpl.php:293
+msgid "Last name"
+msgstr "姓"
+
+#: admin/templates/settings.tpl.php:155 admin/templates/settings.tpl.php:306
+msgid "Company"
+msgstr "公司"
+
+#: admin/templates/settings.tpl.php:181 admin/templates/settings.tpl.php:332
+#: templates/warehouse-address.tpl.php:17
+msgid "Address line 2"
+msgstr "地址行2"
+
+#: admin/templates/settings.tpl.php:259 admin/templates/settings.tpl.php:410
+msgid "Email address"
+msgstr "电子邮件地址"
+
+#: admin/templates/settings.tpl.php:275
+msgid "Map Woocommerce Shipper"
+msgstr "地图 Woocommerce 发货人"
+
+#: admin/templates/settings.tpl.php:276
+msgid ""
+"Note: This field mapping will auto populate Consolidation Shipper field "
+"after Checkout."
+msgstr "注意：此字段映射将在签出后自动填充合并发货人字段。"
+
+#: admin/templates/settings.tpl.php:436
+msgid "Phone Number"
+msgstr "电话号码"
+
+#: admin/templates/settings.tpl.php:440
+msgid "Address"
+msgstr "地址"
+
+#: admin/templates/settings.tpl.php:444
+msgid "Email"
+msgstr "邮箱"
+
+#: admin/templates/settings.tpl.php:459
+msgid "Save Settings"
+msgstr "保存设置"
+
+#: admin/templates/shipment-meta.tpl.php:11
+msgid "Free Storage Left: "
+msgstr "剩余可用存储："
+
+#: admin/templates/shipment-meta.tpl.php:15
+msgid "Consolidate # "
+msgstr "合并 |"
+
+#: admin/templates/shipment-meta.tpl.php:18
+#: templates/wpcshcon-template.tpl.php:10
+msgid "Store/Sender"
+msgstr "商店/发送者"
+
+#: admin/templates/shipment-meta.tpl.php:22 templates/steps1-order.php:11
+#: templates/wpcshcon-template.tpl.php:11
+msgid "Warehouse"
+msgstr "仓库"
+
+#: templates/confirm-order.tpl.php:2
+msgid "Confirm Consolidated Shipments"
+msgstr "确认合并货件"
+
+#: templates/confirm-order.tpl.php:7
+msgid "Checkout"
+msgstr "结帐"
+
+#: templates/consolidate-error.php:4
+msgid "Error to create consolidation"
+msgstr "创建合并的错误"
+
+#: templates/consolidate-success.php:3
+msgid "Congratulations! Consolidation successful."
+msgstr "祝贺！合并成功。"
+
+#: templates/consolidated-shipments.tpl.php:7 templates/payments.tpl.php:8
+msgid "Order No."
+msgstr "序号."
+
+#: templates/consolidated-shipments.tpl.php:8 templates/payments.tpl.php:9
+msgid "Consolidation No."
+msgstr "合并号"
+
+#: templates/consolidated-shipments.tpl.php:9 templates/steps2-order.php:33
+msgid "Shipping Method"
+msgstr "配送方法"
+
+#: templates/consolidated-shipments.tpl.php:10
+msgid "Ship to"
+msgstr "寄送到"
+
+#: templates/consolidated-shipments.tpl.php:12 templates/payments.tpl.php:11
+msgid "Amount"
+msgstr "数量"
+
+#: templates/consolidated-shipments.tpl.php:28
+msgid "Pay Now"
+msgstr "立即付款"
+
+#: templates/consolidated-shipments.tpl.php:31
+msgid "View"
+msgstr "查看"
+
+#: templates/consolidated-shipments.tpl.php:47
+msgid "No Orders found."
+msgstr "找不到订单。"
+
+#: templates/no-shipment.tpl.php:4
+msgid "No Shipment to create consolidation"
+msgstr "无装运可创建合并"
+
+#: templates/payments.tpl.php:2
+msgid "Payments"
+msgstr "支付"
+
+#: templates/payments.tpl.php:3
+msgid "Dashboard"
+msgstr "仪表盘"
+
+#: templates/payments.tpl.php:10
+msgid "Payment Method"
+msgstr "支付方式"
+
+#: templates/payments.tpl.php:12
+msgid "Payment Status"
+msgstr "付款状态"
+
+#: templates/payments.tpl.php:25
+msgctxt "hash before order number"
+msgid "#"
+msgstr "#"
+
+#: templates/payments.tpl.php:48
+msgid "No order has been made yet."
+msgstr "还没有下订单。"
+
+#: templates/restrict-confirm-order.tpl.php:3
+msgid ""
+"Sorry you're not allowed to confirm this Consolidation, Payment has been "
+"created."
+msgstr "很抱歉，您无法确认此合并，付款已创建。"
+
+#: templates/restriction.tpl.php:3
+msgid "You account is under review. Please call  or email  administrator."
+msgstr "您的帐户正在审查中。请致电或发送电子邮件给管理员。"
+
+#: templates/steps1-order.php:10
+msgid "Sender/Tracking Number"
+msgstr "发件人/追踪号码"
+
+#: templates/steps1-order.php:46 templates/view.tpl.php:5
+msgid "Ship To:"
+msgstr "送货到："
+
+#: templates/steps1-order.php:96
+msgid "Next"
+msgstr "下一页"
+
+#: templates/steps2-order.php:1
+msgid "New consolidation details"
+msgstr "新的合并详细信息"
+
+#: templates/steps2-order.php:9
+msgid "Ship To"
+msgstr "取得运输细节出现问题因为"
+
+#: templates/steps2-order.php:66
+msgid "Submit New Order"
+msgstr "提交新订单"
+
+#: templates/wpcshcon-template.tpl.php:8
+msgid "Shipment Number"
+msgstr "请注意您的发货号"
+
+#: templates/wpcshcon-template.tpl.php:9
+msgid "Consildation NO."
+msgstr "同化号"
+
+#: templates/wpcshcon-template.tpl.php:43
+msgid "No"
+msgstr "没有"
+
+#: templates/wpcshcon-template.tpl.php:43
+msgid "Consolidation found!"
+msgstr "已找到合并！"
+
+#: wpcargo-shipment-consolidation-addon.php:40
+msgid "Ready for Consolidation"
+msgstr "准备整合"
+
+#: wpcargo-shipment-consolidation-addon.php:41
+msgid "Consolidated"
+msgstr "合并"
+
+#. Plugin Name of the plugin/theme
+msgid "WPCargo Shipment Consolidation Add on"
+msgstr "WPCargo 货件整合添加"
+
+#. Plugin URI of the plugin/theme
+msgid "http://wptaskforce.com/"
+msgstr "http://wptaskforce.com/"
+
+#. Description of the plugin/theme
+msgid ""
+"This plugin will help you consolidate client shipments. Available shortcodes "
+"[wpcshcon_dashboard order=\"orderPageID\" book=\"addressBookPageID\" "
+"wooorder=\"woocommerceAccountPageID\"], [wpcshcon_consolidate_shipments "
+"dashboard=\"dashboardPageID\"] and [wpcshcon_address_book dashboard="
+"\"dashboardPageID\"]"
+msgstr ""
+"此插件将帮助您整合客户端发货。可用短代码 [wpcshcon_dashboard 订单= \"订单页 "
+"ID\" 书*\"地址簿PageID\"wooorder=\"woocommerce帐户页面ID\"*，"
+"[wpcshcon_consolidate_shipments仪表板=\"仪表板页面ID\"]和 "
+"[wpcshcon_address_book仪表板=\"仪表板页面 ID\"]"
+
+#. Author of the plugin/theme
+msgid "<a href=\"http://www.wptaskforce.com/\">WPTaskForce</a>"
+msgstr "<a href=\"http://www.wptaskforce.com/\">WPTaskForce</a>"
+
+#~ msgid "Don't have account yet?"
+#~ msgstr "还没有帐户？"
+
+#~ msgid "Register Here"
+#~ msgstr "注册"
+
+#~ msgid "Registration"
+#~ msgstr "注册"
+
+#~ msgid "Gender"
+#~ msgstr "性别"
+
+#~ msgid "Male"
+#~ msgstr "男"
+
+#~ msgid "Female"
+#~ msgstr "女"
+
+#~ msgid "Create an account?"
+#~ msgstr "创建一个帐户？"
+
+#~ msgid "<strong>Gender</strong> is a required field."
+#~ msgstr "<strong>性别</strong>是必填字段。"
+
+#~ msgid ""
+#~ "It seems that you Purchase a registration product. <strong>Create an "
+#~ "account</strong> is a required field."
+#~ msgstr "您似乎购买了注册产品。<strong>创建帐户</strong>是必填字段。"
+
+#~ msgid "Thank you for registering to"
+#~ msgstr "感谢您注册"
+
+#~ msgid "Your registration has been received and subject for review."
+#~ msgstr "您的注册已收到，并可供审核。"
+
+#~ msgid "Your Username and Password has been sent to your Email."
+#~ msgstr "您的用户名和密码已发送到您的电子邮件。"
+
+#~ msgid "If you need any assistance, please feel free to contact us."
+#~ msgstr "如果您需要任何帮助，请随时与我们联系。"
+
+#~ msgid "Thanks"
+#~ msgstr "谢谢"
+
+#~ msgid "Administrator"
+#~ msgstr "管理员"
+
+#~ msgid "From: "
+#~ msgstr "从："
+
+#~ msgid "Select Product for Registration Payment"
+#~ msgstr "选择用于注册付款的产品"
+
+#~ msgid "Note: If no product is selected. Paid registration is disable."
+#~ msgstr "注意：如果未选择任何产品。付费注册已禁用。"
+
+#~ msgid "Select Receiver field to display in search address"
+#~ msgstr "选择要在搜索地址中显示的\"接收器\"字段"
+
+#~ msgid "Registration Message"
+#~ msgstr "注册信息"
+
+#~ msgid ""
+#~ "Note: This will override the default message on the Product registration "
+#~ "Checkout Thank you. You can use HTML tags to layout your message."
+#~ msgstr ""
+#~ "注意：这将覆盖产品注册结帐上的默认消息 谢谢。您可以使用 HTML 标记来布局邮"
+#~ "件。"
+
+#~ msgid "Latest Received Shipments"
+#~ msgstr "最新收到的货件"
+
+#~ msgid "No Shipments Found"
+#~ msgstr "未找到货件"
+
+#~ msgid "Consolidate Shipment"
+#~ msgstr "合并装运"
+
+#~ msgid "Shipt To"
+#~ msgstr "船到"
+
+#~ msgid "No delivered consolidation found!"
+#~ msgstr "未找到交付的合并！"
+
+#~ msgid "Confirm Order"
+#~ msgstr "确认订单"
+
+#~ msgid "No Pending Confirmation consolidation found!"
+#~ msgstr "未找到待定确认合并！"

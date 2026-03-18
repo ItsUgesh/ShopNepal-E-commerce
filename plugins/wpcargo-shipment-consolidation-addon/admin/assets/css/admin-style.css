@@ -1,0 +1,86 @@
+#consolidation-data {
+    width: 50%;
+}
+#addons-fees {
+    width: 50%;
+}
+#wpcsh-consolidate-box-id .wpcshcon-wrapper{
+    float: left;
+}
+#addons-fees table th, #addons-fees table td {
+    padding: 4px;
+}
+/* Wpcargo table */
+.wpcargo-table{
+    border-collapse: collapse;
+}
+.wpcargo-table thead th {
+    background-color: #f1f1f1;
+}
+.wpcargo-table thead th, .wpcargo-table tbody td {
+    line-height: 3em;
+    padding: 6px;
+    border: 1px solid #e5e5e5;
+}
+#wpshcon-consolidate-shipment {
+    display:none;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+#wpshcon-consolidate-shipment .modal-content {
+    background-color: #fefefe;
+    margin: 6% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+#map-information {
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    display: block;
+    overflow: hidden;
+    margin: 24px 0;
+    padding: 24px 0;
+}
+#map-information #default-receiver-section {
+    margin-right: 4%;
+}
+#map-information .settings-section {
+    width: 48%;
+    float: left;
+}
+#send-item-email-notification {
+    text-decoration: none;
+}
+#send-item-email-notification:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+.item-notification-list li {
+    margin: 0;
+    padding: 6px 4px;
+}
+.item-notification-list li:nth-child(odd) {
+    background-color: #eee;
+}
+.item-notification-list li:before {
+    content: "\f467";
+    font-family: dashicons;
+    margin-right: 6px;
+    color: #0073aa;
+}
+@media only screen and (max-width: 890px) {
+    #map-information #default-receiver-section {
+        width: 100%;
+        float: none;
+        margin: 0;
+    }
+}
